@@ -61,14 +61,20 @@ print ("Hey " + (Guests[5]) + Message )
 # are still invited.
 # - Use del to remove the last two names from your list, so you have an empty list. Print 
 # your list to make sure you actually have an empty list at the end of your prog
+print ( "\n\n Question 4")
+print(' Sorry the new table did not arrive in time.')
+Message = '! Sorry, I cannot invite you to dinner this time.'
+popped_Guests=Guests.pop()
+print ("Hey " + popped_Guests + Message )
+popped_Guests=Guests.pop()
+print ("Hey " + popped_Guests + Message )
+popped_Guests=Guests.pop()
+print ("Hey " + popped_Guests + Message )
+popped_Guests=Guests.pop()
+print ("Hey " + popped_Guests + Message )
 
-Message = ' Sorry the new table did not arrive in time'
-print ("Hey " + (Guests[2]) + Message )
-print ("Hey " + (Guests[3]) + Message )
-print ("Hey " + (Guests[4]) + Message )
-print ("Hey " + (Guests[5]) + Message )
-Guests.sort
-Message = ' You are still invited'
+Guests.sort()
+Message = '! You are still invited.'
 print ("Hey " + (Guests[0]) + Message )
 print ("Hey " + (Guests[1]) + Message )
 
